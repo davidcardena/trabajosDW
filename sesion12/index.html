@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Encuesta</title>
+</head>
+<body>
+    <div  id="contenedor">
+   <h2>Encuesta de Cine: Nominadas al Oscar 2018</h2> 
+   <form id="formulario1" name="formulario1" method="POST"  action="data.php">
+<fieldset id="Datos Personales">
+    <legend>Datos Personales</legend>
+    <label for="nombre">Nombre</label><br>
+    <input type="text" name="nombre"  id="nombre"><br>
+
+    <label for="apellidos">Apellidos</label><br>
+    <input type="text" name="apellidos"  id="apellidos"><br>
+
+     <label for="dni">DNI</label><br>
+     <input type="text" name="dni"  id="dni"  maxlength="9"><br>
+
+     <label for="edad">Edad</label><br>
+     <input type="text" name="edad"  id="edad"  size="2"  maxlength="2"><br>
+    </fieldset>
+
+     <fieldset id="Mejor_película">
+<legend>Mejor Película</legend>
+<input type="radio" name="Película"  value="11"> Call Me  By Your Name <br>
+<input type="radio" name="Película"  value="11"> Dunkerque <br>
+<input type="radio" name="Película"  value="11"> Déjame salir <br>
+<input type="radio" name="Película"  value="11"> Goleador <br>
+<input type="radio" name="Película"  value="11"> Los tres  chiflados <br>
+</fieldset>
+
+
+<fieldset id="grupo_argumento">
+    <legend>Argumento de tu película preferida</legend>
+<textarea id="argumento" name="argumento" rows="14" cols="50"></textarea>
+</fieldset>
+<br>
+<input type="reset" value="Borrar Formulario">  <input  type="submit"  value="Enviar">
+   </form>
+</div>
+
+</body>
+</html>
