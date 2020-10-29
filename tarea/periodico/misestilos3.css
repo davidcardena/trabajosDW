@@ -1,0 +1,49 @@
+.tamaño {
+    height: auto;
+    width: auto;
+}
+
+#caja1 {
+    margin:0px;
+    top:10px;
+    background-color: white;
+    padding: 15px;
+    width: 10;
+    height: 03;
+    
+}
+
+#caja2 {
+    margin:0px;
+    top:0px;
+    background-color: white;
+    width: 1252px;
+    height: 400px;  
+    float: left;
+    padding: 40px;
+}
+
+#caja3 {
+    margin:0px;
+    top: 0px;
+    width: 1268px;
+    height: 60px;
+    background-color: white;
+    clear: left; 
+    padding: 30px;
+   
+} 
+
+#caja4 {
+    margin:0px;
+    top:0px;
+    width: 1250px;
+    height: 20px;
+    background-color: white;
+    float:  left;
+    padding: 40px;
+
+}
+p{
+    text-align: justify;
+}

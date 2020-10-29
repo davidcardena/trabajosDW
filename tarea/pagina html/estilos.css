@@ -1,0 +1,56 @@
+
+tamaño{
+    height: auto;
+    width: auto;
+}
+#caja1{
+    margin:0px; 
+    top:15px;   
+    padding:5px;
+    background: yellow; 
+}
+#caja2{
+
+    margin:0px;
+    top: 0px;
+    padding: 110px;    
+    background-color: green;
+    height:129px;
+    width: 220px;
+    float: left;
+}
+
+#caja3 {
+    margin:0px;
+    top: 0px;
+    padding:80px;  
+    
+    background-color:  #666699;
+    left: 150px;
+
+}
+
+#caja4 {
+    margin:0px;
+    top: 0px;    
+    padding:0px; 
+    background-color:blue;
+    float: left;
+    height: 90px;
+    width: 1350px;
+   
+
+}
+h1{
+    font-size: 40px;
+    font-family: Lucida Sans;
+    color: black;
+}
+
+
+p{
+    text-align: justify;
+    font-size: 12px;
+    font-family: verdana;
+    color: black;
+}

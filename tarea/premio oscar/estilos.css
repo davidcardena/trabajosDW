@@ -1,0 +1,59 @@
+
+tamaño{
+    height: auto;
+    width: auto;
+}
+#caja1{
+    margin:0px; 
+    top:50px;   
+    padding:40px;
+    width: 1069px;
+    height: 70px;
+    background:  black;
+   
+
+   
+}
+#caja2{
+
+    margin:0px;
+    top: 0px;
+    width: 600px;
+    height:800px;
+    background-color: black;
+    float: left;
+}
+
+#contenedor {
+    margin:15px;
+    top:30px;
+    width: 538px;
+    height: 800px;
+    background-color:  Lightyellow;
+    float: left;
+
+}
+h1{
+    font-size: 40px;
+    font-family: Lucida Sans;
+    color: white;
+}
+
+h2{
+font-size: 40px;
+font-family: calibri;
+color: white;
+}
+h3{
+    font-size: 20px;
+    font-family: verdana;
+    color: white;
+    }
+    
+h4{
+
+    font-size: 30px;
+    font-family: verdana;
+    color: blue;
+    }
+

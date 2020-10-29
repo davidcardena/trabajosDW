@@ -1,0 +1,36 @@
+.grid{
+    display:grid;
+    grid-template-columns: 20% 60%  20%;
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: "head head head " "menu contenedor enlaces" "foot foot  foot";
+}
+    .a {
+        grid-area: head;
+        background-color: #6600CC;
+    }
+    
+    .b{
+        grid-area: menu;
+        background-color: #6699FF;
+    }
+
+
+    .c{
+        grid-area: contenedor;
+        background-color: midnightblue;
+    }
+
+
+
+    .d{
+        grid-area: foot;
+        background-color: #996699;
+    }
+
+
+    .e{
+        grid-area: enlaces;
+        background-color: #990099;
+    }
+
+
