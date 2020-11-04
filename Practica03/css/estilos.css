@@ -1,0 +1,315 @@
+tamaño{
+    height: auto;
+    width: auto;
+}
+/*DIVISION PRINCIPAL */
+#caja1 {
+    margin:0px; 
+    top:0px;   
+    padding:40px;
+    background:  #48D1CC;
+    height: 120px;
+  
+}
+#caja2{
+
+    margin:0px;
+    top: 20px;    
+    background-color: black;
+    padding:5px;
+  
+}
+
+#caja3 {
+    margin:0px;
+    background-color: white;
+    top: 0px;
+    padding:15px;   
+    width: 880px;
+    height: 910px;
+    float: left;
+
+}
+
+
+#caja4 {
+    background-color: #00FFFF;
+    margin: 0px;
+    width: auto;
+    height: 900px;
+    padding:20px;
+
+}
+#caja5 {
+    background-color:  #48D1CC;
+    width: 1292px;
+    float: left;
+    top:  0px;
+    padding: 20px;
+    height: 140px;
+}
+
+#caja6{
+    background-color: black;
+   
+    height: 60px;
+    width: 1333px;
+    padding: 0px;
+    float: left;
+
+}
+
+
+
+/*margen foto de la  cabecera*/
+
+
+img.izquierda{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    
+}
+
+img.derecha{
+    float: right;
+}
+h3{
+
+    float: right;
+    position: relative;
+    top: -158px;
+}
+h1{
+    position: relative;
+    top: 50px;
+}
+
+/*menu barra  principal */
+.navegacion {
+    width: auto;    
+    margin:  0px auto;
+    background: black;
+  
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+   /* position: relative;
+   */
+   display: inline-block;
+
+}
+
+.menu >li > a {
+display: block;
+padding: 20px 80px;
+
+color: white;
+font-family: 'open sans';
+text-decoration: none;
+}
+
+.menu li a:hover{
+    color: white;
+    background: blue;
+   
+
+}
+.navegacion > li {
+    float:left;
+}
+p, img {
+    margin-right: 10px;
+    margin-left: 10px; 
+  
+}
+
+/*******************/
+/****menu parte horizontal **/
+.horizontal {
+    width: auto;    
+    margin:  0px auto;
+    background: #48D1CC;
+    top:  0px;
+    margin-right: 0px;
+    margin-left: 898px; 
+}
+
+.lista{
+    text-align: left;
+    display: inline-block;
+    margin: 2rem;
+        
+}
+
+.lista>li>a{
+    text-decoration: none;
+}
+
+/***************************/
+/*****menu horizontal2 --  enlaces de interes **/
+
+.horizontal2 {
+    width: auto;    
+    margin:  0px auto;
+    background:  #48D1CC;
+    top: 0px;
+    margin-right: 0px;
+    margin-left: 898px; 
+ 
+}
+
+.lista2{
+    text-align: left;
+    display: inline-block;
+    margin: 2rem;
+}
+
+.lista2>li>a{
+    text-decoration: none;
+}
+    
+
+
+
+
+/*menu barra inferior*/
+
+
+/****menu Información de contactos***/
+.horizontal3 {
+    width: auto;    
+    margin:  0px auto;
+    top: 0px;   
+    margin-right: 0px;
+    margin-left: 0px;
+    float:left;
+ 
+}
+
+.lista3{
+    text-align: left;   
+    margin: 0rem;
+}
+
+.lista3>li>a{
+    text-decoration: none;
+}
+
+/*************************************/
+
+/*****menu  siguenos**/
+.horizontal4 {
+    width: auto;    
+    margin:  0px auto;
+       top:  0px;
+    margin-right: 0px;
+    margin-left: 0px;     
+    float:left;
+   
+}
+
+.lista4{
+    text-align: left;
+    margin: 0rem;
+}
+
+.lista4>li>a{
+    text-decoration: none;
+}
+
+
+/*******************************************/
+/*****************************Enlaces de interes***/
+
+
+.horizontal5 {
+    width: auto;    
+    margin:  0px auto;
+   
+    top:  0px;
+    margin-right: 0px;
+    margin-left:0px; 
+    float:left;
+   
+   
+    
+}
+
+.lista5{
+    text-align: left;
+    margin: 0rem;
+}
+
+.lista5>li>a{
+    text-decoration: none;
+}
+
+
+
+/*****************************************************/
+
+/********menu*****/
+.horizontal6 {
+    width: auto;    
+    margin:  0px auto;
+ 
+    top:  0px;
+    margin-right: 0px;
+    margin-left: 0px; 
+    float:left;
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.lista6{
+    text-align: left;
+    margin: 0rem;
+}
+
+.lista6>li>a{
+    
+        text-decoration: none;
+}
+
+
+/***********************************/
+
+/******************* enlaces***/
+
+/**************  menu- y-información de contactos****/
+a[class="interno"]{
+    color: #000080;
+}
+
+
+/*********************************** enlaces de interes***/
+a[class="externo"]{
+    color: green;
+}
+
+/*************************siguenos*************/
+a[class="siguenos"]{
+    color: brown;
+}
+
+/********************* de la página de  contactos y sesión*****/
+fieldset{
+    background: #00FFFF;
+ }
+
+ /****************************  página de proyectos****/
+ .margen{
+border: 1px solid blanchedalmond;
+color: olive;
+padding: 1em;
+float: left;
+width: 0 px;
+margin: 2px;
+vertical-align: top;
+ }
+
