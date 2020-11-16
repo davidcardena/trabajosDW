@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/misestilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="datosentrada">
+        <label   for ="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+
+
+        <label   for ="password">Password</label>
+        <input type="password" name="password" id="password">
+
+        <input type="button"  onclick="guardarDatos()"  value="Guardar datos">
+        <p id="datos">Pulsa para ver tu nombre y password</p>
+        
+        <input type="button"   onclick="recuperarDatos()"   value="Recuperar datos">
+        <input type="button"  onclick="borrarDatos()"    value="Borrar datos">
+        
+
+
+    </div>
+    <script type="text/javascript"  src="js/miprograma.js"></script>
+    
+</body>
+</html>
